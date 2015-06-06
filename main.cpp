@@ -18,14 +18,19 @@ void task1();
 void task3(const char*);
 void task5(const char*);
 void task6(const char*,const char*);
-void task8(const char*,const char*,const char*);
+void task8(const char*,const char*);
+void task8_search(const char*,const char*,const char*);
 
 int main(int argc, const char * argv[]) {
 //    task1();
 //    task3(argv[1]);
 //    task5(argv[1]);
 //    task6(argv[1],argv[2]);
-    task8(argv[1],argv[2],argv[3]);
+    if(argc > 3){
+        task8_search(argv[1],argv[2],argv[3]);
+    }else{
+        task8(argv[1],argv[2]);
+    }
     return 0;
 }
 
@@ -99,9 +104,9 @@ void task6(const char* filename,const char* id){
 }
 
 
-void task6(const char* filename,const char* id){
+void task8(const char* filename,const char* uname){
     string recipefilename = filename;
-    int selected_id = atoi(id);
+    string username = uname;
     int recipeid = 0;
 
     //ファイルオープン
@@ -110,14 +115,17 @@ void task6(const char* filename,const char* id){
         cout << "error : file is not exist" << endl;
         exit(1);
     }
-    
+
+    cout << "ユーザ名: " << username << endl;
     //ファイルの記述を行ごとにコンソール出力
     string recipestr;
     while(getline(ifs, recipestr)){
         istringstream stream(recipestr);
         recipeid++;
-        if(selected_id == recipeid){
         cout << recipeid << ": " << recipestr << endl;
-        }
     }
+}
+
+void task8_search(const char* filename,const char* uname,const char* id){
+    exit(1);
 }
