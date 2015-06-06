@@ -18,25 +18,27 @@ void task1();
 void task3(const char*);
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
     task1();
     task3(argv[0]);
     return 0;
 }
 
 void task1(){
+    //”オムライス”を出力
     cout << "オムライス" << endl;
 }
 
 void task3(const char* filename){
     string recipefilename = filename;
     
+    //ファイルオープン
     ifstream ifs(recipefilename);
     if(!ifs){
         cout << "error : file is not exist" << endl;
         exit(1);
     }
     
+    //ファイルの記述を行ごとにコンソール出力
     string recipestr;
     while(getline(ifs, recipestr)){
         istringstream stream(recipestr);
