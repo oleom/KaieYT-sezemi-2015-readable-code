@@ -16,14 +16,14 @@ using namespace std;
 
 void task1();
 void task3(const char*);
-void task4(const char*);
-void task5(const char*,const char*);
+void task5(const char*);
+void task6(const char*,const char*);
 
 int main(int argc, const char * argv[]) {
 //    task1();
 //    task3(argv[1]);
-//    task4(argv[1]);
-    task5(argv[1],argv[2]);
+//    task5(argv[1]);
+    task6(argv[1],argv[2]);
     return 0;
 }
 
@@ -53,7 +53,7 @@ void task3(const char* filename){
 }
 
 
-void task4(const char* filename){
+void task5(const char* filename){
     string recipefilename = filename;
     int recipeid = 0;
 
@@ -73,7 +73,7 @@ void task4(const char* filename){
     }
 }
 
-void task5(const char* filename,const char* id){
+void task6(const char* filename,const char* id){
     string recipefilename = filename;
     int selected_id = atoi(id);
     int recipeid = 0;
