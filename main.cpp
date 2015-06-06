@@ -10,36 +10,36 @@
 #include <sstream>
 #include <fstream>
 #include <istream>
+#include <string>
+
+using namespace std;
 
 void task1();
-int task3();
+void task3(const char*);
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     task1();
+    task3(argv[0]);
     return 0;
 }
 
 void task1(){
-    std::cout << "オムライス" << std::endl;
+    cout << "オムライス" << endl;
 }
 
-int task3(){
-    std::string filename;
-    std::stringstream recipestr;
+void task3(const char* filename){
+    string recipefilename = filename;
     
-    filename = "recipe-data.txt";
-    
-    std::ifstream ifs(filename);
+    ifstream ifs(recipefilename);
     if(!ifs){
-        std::cout << "error : file is not exist";
-        return -1;
+        cout << "error : file is not exist" << endl;
+        exit(1);
     }
     
+    string recipestr;
     while(getline(ifs, recipestr)){
-        std::istringstream stream(recipestr);
-        std::cout << recipestr << std::endl;
+        istringstream stream(recipestr);
+        cout << recipestr << endl;
     }
-    
-    return 1;
 }
