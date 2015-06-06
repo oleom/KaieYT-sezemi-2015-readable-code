@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A0081664-F13B-4EFB-99B2-4F7FEAD58288</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sezemi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6EA8AC0D8EB62EFA15D9B683E5D98F2C948757FE</key>
+		<string>ssh://github.com/oleom/KaieYT-sezemi-2015-readable-code.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sezemi/Sezemi.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6EA8AC0D8EB62EFA15D9B683E5D98F2C948757FE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/oleom/KaieYT-sezemi-2015-readable-code.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6EA8AC0D8EB62EFA15D9B683E5D98F2C948757FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6EA8AC0D8EB62EFA15D9B683E5D98F2C948757FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KaieYT-sezemi-2015-readable-code</string>
+		</dict>
+	</array>
+</dict>
+</plist>
