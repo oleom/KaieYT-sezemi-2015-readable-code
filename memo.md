@@ -10,12 +10,19 @@ commit
 
 仕様3を実装開始
 実装終了
-task3()のファイル読み込み処理で，スコープは狭いが変数名が簡単に理解できるよう工夫．
+
+####実際のコード
 string recipefilename = filename;
 ifstream ifs(recipefilename);
 string recipestr;
 int selected_id
-など．
+
+####どうしてリーダブルか
+task3()のファイル読み込み処理で，スコープは狭いが変数名が簡単に理解できるよう工夫．
+
+####一言説明
+理解しやすい変数
+
 
 ####実際のコード
 
