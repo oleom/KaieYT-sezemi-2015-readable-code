@@ -8,6 +8,7 @@
 
 #include <iostream>
 void task1();
+void task2();
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -17,4 +18,8 @@ int main(int argc, const char * argv[]) {
 
 void task1(){
     std::cout << "オムライス" << std::endl;
+}
+
+void task2(){
+    
 }
