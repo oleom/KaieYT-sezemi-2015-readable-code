@@ -38,3 +38,11 @@ int main(int argc, const char * argv[]) {
 
 ####一言説明
 タスク毎
+
+
+####実際のコード
+https://github.com/oleom/oleom-sezemi-2015-readable-code.git/main.cpp
+####どうしてリーダブルか
+動作毎に段落で分けられているため，仕様の追加が容易
+####一言説明
+動作の段差分け
