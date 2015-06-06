@@ -19,7 +19,7 @@ void task3(const char*);
 
 int main(int argc, const char * argv[]) {
     task1();
-    task3(argv[0]);
+    task3(argv[1]);
     return 0;
 }
 

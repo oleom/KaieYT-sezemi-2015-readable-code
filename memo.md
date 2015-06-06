@@ -15,3 +15,18 @@ string recipefilename = filename;
 ifstream ifs(recipefilename);
 string recipestr;
 など．
+
+####実際のコード
+
+int main(int argc, const char * argv[]) {
+    task1();
+    task3(argv[1]);
+    return 0;
+}
+
+####どうしてリーダブルか
+タスク毎に分けて定義しているので
+動作の確認がしやすい．
+
+####一言説明
+タスク毎
